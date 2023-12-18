@@ -7,7 +7,7 @@
     right: 0;
     z-index: 999;
     margin-bottom: 5%;
-    margin-left: 8%;
+    margin-left: -3%;
   }
   .icon{
     font-size: 25px;
@@ -28,6 +28,7 @@
     color: #6F00FF;
     margin-right: -1%;
   }
+  
   .title {
     color: #6F00FF;
     font-size: 17px;
@@ -45,9 +46,13 @@
   }
   @media (min-width: 576px) {
     .nav {
+      justify-content: center;
+      text-align: center;
+      display: flex;
       flex-direction: row;
-      justify-content: flex-start;
     }
+    
+    
     
   }
   
