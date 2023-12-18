@@ -1,0 +1,42 @@
+.name{
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+.namee{
+  text-align: center;
+  color: chocolate;
+  font-size: 28px;
+}
+*{
+background-color: black;
+color: white;
+}
+.download {
+  color: white;
+  font-size: 17px;
+  display: flex;
+  margin-top: 6%;
+  background-color: #3385D6;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+} 
+.titlecontainer{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+  .iconbutton{
+    background-color: #3385D6;
+    
+  }
+  @media screen and (max-width: 480px) {
+    .namee {
+      font-size: 14px; 
+  }
+
+  }
+ 
+  
